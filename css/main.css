@@ -22,9 +22,14 @@
   /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
   flex-flow: row wrap;
-  align-content: space-around;
+  /* align-content: space-around; */
 }
 
 .container div:nth-child(2) {
   order: -1;
+  align-self: stretch;
+}
+
+.container div:nth-child(5) {
+  align-self: end;
 }
