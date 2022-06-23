@@ -1,7 +1,7 @@
 /* Your code goes here */
 .container {
   display: flex;
-  height: 200px;
+  height: 300px;
   width: 500px;
   border: 1px solid #fff;
 
@@ -21,7 +21,8 @@
   align-items: flex-start;
   /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  align-content: space-around;
 }
 
 /* .container div:nth-child(2) {
