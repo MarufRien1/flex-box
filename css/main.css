@@ -1,24 +1,29 @@
 /* Your code goes here */
 .container {
   display: flex;
+  height: 200px;
+  width: 500px;
+  border: 1px solid #fff;
+
   /* flex-direction: row */
   /* flex-direction: row-reverse; */
   /* flex-direction: column; */
   /* flex-direction: column-reverse; */
-  flex-direction: row-reverse;
+  /* flex-direction: row; */
   /* justify-content: start; */
   /* justify-content: end; */
   /* justify-content: space-around; */
-  justify-content: space-between;
-  border: 1px solid #fff;
-  height: 200px;
+  justify-content: start;
   /* align-items: stretch; */
   /* align-items: start; */
   /* align-items: end; */
   /* align-items: center; */
-  align-items: baseline;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  flex-flow: column wrap;
 }
 
-.container div:nth-child(2) {
+/* .container div:nth-child(2) {
   font-size: 50px;
-}
+} */
