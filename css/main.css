@@ -1,8 +1,7 @@
 /* Your code goes here */
 .container {
   display: flex;
-  height: 300px;
-  width: 500px;
+  width: 800px;
   border: 1px solid #fff;
 
   /* flex-direction: row */
@@ -13,23 +12,27 @@
   /* justify-content: start; */
   /* justify-content: end; */
   /* justify-content: space-around; */
-  justify-content: start;
+  /* justify-content: start; */
   /* align-items: stretch; */
   /* align-items: start; */
   /* align-items: end; */
   /* align-items: center; */
-  align-items: flex-start;
+  /* align-items: flex-start; */
   /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   /* align-content: space-around; */
 }
 
+.container div {
+  margin: 0;
+  width: 100px;
+  flex-grow: 1;
+}
+
 .container div:nth-child(2) {
-  order: -1;
-  align-self: stretch;
+  flex-grow: 2;
 }
 
 .container div:nth-child(5) {
-  align-self: end;
 }
