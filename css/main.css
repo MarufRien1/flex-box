@@ -10,4 +10,15 @@
   /* justify-content: end; */
   /* justify-content: space-around; */
   justify-content: space-between;
+  border: 1px solid #fff;
+  height: 200px;
+  /* align-items: stretch; */
+  /* align-items: start; */
+  /* align-items: end; */
+  /* align-items: center; */
+  align-items: baseline;
+}
+
+.container div:nth-child(2) {
+  font-size: 50px;
 }
